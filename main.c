@@ -13,6 +13,7 @@
 static const char *path = "./modules/";
 static module *arr = NULL;
 static DIR *dir; 
+static struct discord *client;
 
 void on_skill(int);
 
@@ -54,9 +55,9 @@ int main() {
 
         snprintf(full_path, sizeof(full_path), "%s%s", path, entry->d_name);
 
-		void *handle = dlopen(full_path, RTLD_NOW);
+		void *handle = dlopen(full_path, RTLD_NOW | RTLD_GLOBAL);
 		if (!handle) {
-			perror("module open error");
+			fprintf(stderr, "Module open error (%s), dlerror: %s\n", full_path, dlerror());
 
 			free(arr);
 		    closedir(dir);
@@ -94,7 +95,7 @@ int main() {
 
 	for (uint64_t i = 0; i < x; i++) {
 		if (current->mod_meta->init() < 0) {
-			fprintf(stderr, "Module %s not loaded", current->mod_meta->name);
+			fprintf(stderr, "Module %s not loaded\n", current->mod_meta->name);
 			current->mod_meta->exit();
 			continue;
 		};
@@ -114,11 +115,16 @@ int main() {
 	}*/
 	signal(SIGINT, on_skill);
 
-	struct discord *client;
 	if (!disget_client(&client)) {
 		free(arr);
 	    closedir(dir);
 	}
+
+	discord_add_intents(client, 
+		DISCORD_GATEWAY_GUILD_MESSAGES | 
+		DISCORD_GATEWAY_DIRECT_MESSAGES | 
+		DISCORD_GATEWAY_MESSAGE_CONTENT
+	);
 
 	discord_run(client);
 
@@ -138,9 +144,8 @@ int main() {
 }
 
 void on_skill(int sig) {
-	disexit();
-
 	free(arr);
     closedir(dir);
 
+	discord_cleanup(client);
 }

@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdint.h>
+#include <string.h>
 
 #include "command.h"
 
@@ -31,13 +32,11 @@ int rgcommand(const char *name, uint32_t access_level, uint64_t *access_roles, s
 	*current_cmd = (icommand) {
 		.id = lastId,
 		.access_level = access_level,
-		.name = name,
+		.name = strdup(name),
 		.access_roles = access_roles,
 		.roles_count = rcnt,
 		.vtable = ops,
 	};
-
-	//TODO: reg ops->execute and ops->on_msg_delete and add command to discord
 
 	return lastId;
 }
@@ -45,3 +44,48 @@ int rgcommand(const char *name, uint32_t access_level, uint64_t *access_roles, s
 /*void urgcommand(uint32_t id) {
 	
 }*/
+
+void on_msg_create(struct discord *client, const struct discord_message *msg) { //TODO: check mod
+	if (msg->author->bot) return;
+
+	char *content = msg->content;
+	if(*content != '!') return;
+
+	char *content_cpy = strdup(content);
+	char *cmd_name = strtok(content_cpy + 1, " \t\r\n");
+
+	icommand *current = commands;
+	for (size_t i = 0; i < buff_count; i++) {
+		if (strcmp(cmd_name, current->name) == 0) {
+			char *content_copy = strdup(msg->content);
+			char *args[ARG_BUFFER];
+			size_t arg_cnt = 0;
+
+			char *tokn = strtok(content_copy, " ");
+			while (tokn != NULL && arg_cnt < ARG_BUFFER) {
+				args[arg_cnt] = tokn;
+				arg_cnt++;
+				tokn = strtok(NULL, " ");
+			}
+
+
+			command_context context = {
+				.message_id = msg->id,
+				.channel_id = msg->channel_id,
+				.guild_id = msg->guild_id,
+				.author_id = msg->author ? msg->author->id : 0,
+				.author_roles = (const uint64_t *)msg->member->roles->array,
+				.author_roles_count = (size_t)msg->member->roles->size,
+				.args = (const char **)args,
+				.args_count = arg_cnt,
+				.discord_client = client,
+			};
+			free(content_cpy);
+			free(content_copy);
+			current->vtable->execute(current, &context);
+			return;
+		} else {
+			current ++;
+		}
+	}
+}
