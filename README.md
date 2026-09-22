@@ -4,12 +4,22 @@ It`s a discord bot on C
 
 # How to compile this
 
-To compile main project use this command:
+To compile all project use this command:
 ```bash
-gcc main.c -o main.bin -ldl
+make
 ```
 
-To compile module use this:
+To compile only loader use this:
 ```bash
-gcc -shared -fPIC ./mod_dev/module_project_name/module_file.c -o modules/module_name.so
+make main
+```
+
+To compile only modules use:
+```bash
+make modules
+```
+
+To compile one module use:
+```bash
+make module_name
 ```

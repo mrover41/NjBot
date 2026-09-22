@@ -10,4 +10,4 @@ static void on_exit(void) {
 	puts("[COMMAND_MOD] Unloaded");
 }
 
-REG_MODULE("test_module", on_init, on_exit);
+REG_MODULE("command_module", on_init, on_exit);
