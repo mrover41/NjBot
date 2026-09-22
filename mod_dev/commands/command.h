@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 #include <stddef.h>
+#include <concord/discord.h>
 
 typedef struct icommand icommand;
 
@@ -18,13 +19,13 @@ typedef struct {
     const char **args;
     size_t args_count;
 
-    void *discord_client;
+    struct discord *discord_client;
 } command_context;
 
 
 typedef struct {
 	int (*execute)(const icommand *, const command_context *);
-	void (*on_msg_delete)(const icommand *, uint64_t);
+	void (*on_msg_delete)(const icommand *, const struct discord_message *msg);
 } command_ops;
 
 struct icommand {
