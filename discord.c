@@ -3,12 +3,11 @@
 
 #include "discord.h"
 
-struct discord *client = NULL;
+static struct discord *client = NULL;
 
 int disinit() {
 	client = discord_config_init(CONFIG_FILE);
 	if (!client) return -1;
-	discord_run(client);
 
 	return 0;
 }
