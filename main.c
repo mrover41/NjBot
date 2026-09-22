@@ -5,16 +5,21 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdint.h>
+#include <signal.h>
 
 #include "module.h"
 #include "discord.h"
 
 static const char *path = "./modules/";
+static module *arr = NULL;
+static DIR *dir; 
+
+void on_skill(int);
 
 int main() {
 	disinit();
 
-	DIR *dir = opendir(path);
+	dir = opendir(path);
     if (!dir) {
         perror("opendir");
         return -1;
@@ -34,7 +39,7 @@ int main() {
 
 	rewinddir(dir);
 
-	module *arr = calloc(x, sizeof(module));
+	arr = calloc(x, sizeof(module));
 	
 	x = 0;
 	module *current = arr;
@@ -97,7 +102,7 @@ int main() {
 		current++;
 	}
 
-	for (;;) {
+	/*for (;;) {
 		char buf[256];
 		ssize_t nread = read(0, buf, sizeof(buf) - 1);
 
@@ -106,7 +111,16 @@ int main() {
 		buf[strcspn(buf, "\r\n")] = '\0';
 
 		if (strcmp(buf, "exit") == 0 || strcmp(buf, "q") == 0) break;
+	}*/
+	signal(SIGINT, on_skill);
+
+	struct discord *client;
+	if (!disget_client(&client)) {
+		free(arr);
+	    closedir(dir);
 	}
+
+	discord_run(client);
 
 	current = arr;
 	for (uint64_t i = 0; i < x; i++) {
@@ -121,4 +135,12 @@ int main() {
 	free(arr);
     closedir(dir);
 	return 0;
+}
+
+void on_skill(int sig) {
+	disexit();
+
+	free(arr);
+    closedir(dir);
+
 }

@@ -1,0 +1,13 @@
+18:01:06 ERROR user-agent.c:757: [USER_AGENT] [31mCLIENT ERROR[0m (401)UNAUTHORIZED - The Authorization header was missing or invalid. [@@@_1_@@@]
+18:01:06 FATAL discord-rest_request.c:186: [DISCORD_REQUEST] UNAUTHORIZED: Please provide a valid authentication token
+18:01:06 ERROR discord-rest_request.c:391: [DISCORD_REQUEST] {"message": "401: Unauthorized", "code": 0}
+18:04:49 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+18:04:50 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+18:04:50 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+18:04:50 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+18:04:50 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+18:04:50 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+18:04:50 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+18:04:50 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (297 bytes) [@@@_7_@@@]
+18:04:51 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+18:04:51 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
