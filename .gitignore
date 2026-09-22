@@ -1,2 +1,6 @@
 modules/*
 !modules/.gitkeep
+
+*.out
+*.so
+*.bin
