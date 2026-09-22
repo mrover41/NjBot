@@ -4,6 +4,7 @@
 
 static int on_init(void) {
 	puts("[TEST_MOD] Loaded");
+	return 0;
 }
 
 static void on_exit(void) {

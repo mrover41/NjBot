@@ -15,8 +15,8 @@ typedef struct {
 
 struct module_meta_t {
 	const char *name;
-	const int (*init) (void);
-	const void (*exit) (void);
+	int (*init) (void);
+	void (*exit) (void);
 };
 
 #define REG_MODULE(mod_name, init_fn, exit_fn) \
