@@ -11,3 +11,453 @@
 18:04:50 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (297 bytes) [@@@_7_@@@]
 18:04:51 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
 18:04:51 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+18:10:38 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+18:10:38 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+18:10:38 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+18:10:38 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+18:10:38 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+18:10:38 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+18:10:38 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+18:10:38 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (297 bytes) [@@@_7_@@@]
+18:10:39 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+18:10:39 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+18:10:42 WARN  websockets.c:881: [WEBSOCKETS] Attempting to close WebSockets connection with WS_CLOSE_REASON_NORMAL : Client triggered shutdown
+18:10:42 INFO  discord-loop.c:127: [DISCORD] Exits main gateway loop (code: 0, reason: Success: The request was a success)
+18:10:42 INFO  websockets.c:195: [WEBSOCKETS] Change status to WS_DISCONNECTING
+18:10:42 WARN  websockets.c:377: [WEBSOCKETS] Received pending WS_CLOSE_REASON_NORMAL, closing the connection ...
+18:10:42 WARN  websockets.c:450: [WEBSOCKETS] [31mFailed[0m at SEND CLOSE : Close already taking place [@@@_10_@@@]
+18:10:42 INFO  websockets.c:177: [WEBSOCKETS] Change status to WS_DISCONNECTED
+18:10:42 WARN  discord-gateway.c:796: [DISCORD_GATEWAY] Discord Gateway Shutdown
+21:33:47 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:34:56 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:37:58 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:40:53 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:43:12 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:45:06 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:48:15 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:49:31 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:49:31 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+21:49:31 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+21:49:31 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+21:49:31 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+21:49:31 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+21:49:31 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+21:49:31 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (300 bytes) [@@@_7_@@@]
+21:49:31 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+21:49:31 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+21:50:13 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_11_@@@]
+21:50:54 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_13_@@@]
+21:51:35 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_15_@@@]
+21:52:16 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_17_@@@]
+21:52:58 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_19_@@@]
+21:53:39 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_21_@@@]
+21:54:20 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_23_@@@]
+21:54:45 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55ef435a1610
+21:54:45 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55ef435a1610
+21:54:55 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55ef435a1610
+21:54:55 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55ef435a1610
+21:55:01 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:55:02 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+21:55:02 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+21:55:02 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+21:55:02 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+21:55:02 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+21:55:02 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+21:55:02 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (300 bytes) [@@@_7_@@@]
+21:55:04 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+21:55:04 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+21:55:08 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55fc79d5e610
+21:55:08 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55fc79d5e610
+21:55:17 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55fc79d5e610
+21:55:17 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55fc79d5e610
+21:56:17 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:56:18 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+21:56:18 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+21:56:18 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+21:56:18 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+21:56:18 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+21:56:18 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+21:56:18 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (300 bytes) [@@@_7_@@@]
+21:56:19 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+21:56:19 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+21:56:24 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x558a69857610
+21:56:24 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x558a69857610
+21:56:40 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x558a69857610
+21:56:40 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x558a69857610
+21:56:55 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x558a69857610
+21:56:55 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x558a69857610
+21:57:00 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_15_@@@]
+21:57:12 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x558a69857610
+21:57:12 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x558a69857610
+21:59:04 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+21:59:05 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+21:59:05 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+21:59:05 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+21:59:05 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+21:59:05 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+21:59:05 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+21:59:05 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (300 bytes) [@@@_7_@@@]
+21:59:05 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+21:59:05 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+21:59:11 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55fe38445610
+21:59:11 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55fe38445610
+21:59:18 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55fe38445610
+21:59:18 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55fe38445610
+21:59:23 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55fe38445610
+21:59:23 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55fe38445610
+21:59:25 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55fe38445610
+21:59:25 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55fe38445610
+21:59:36 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55fe38445610
+21:59:36 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55fe38445610
+21:59:47 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_16_@@@]
+22:02:51 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:04:10 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:04:46 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:06:12 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:06:12 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:06:12 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:06:12 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:06:12 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:06:12 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:06:12 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:06:12 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (316 bytes) [@@@_7_@@@]
+22:06:13 INFO  websockets.c:195: [WEBSOCKETS] Change status to WS_DISCONNECTING
+22:06:13 WARN  discord-gateway.c:355: [DISCORD_GATEWAY] [31mCLOSE DISCORD_GATEWAY_CLOSE_REASON_INVALID_INTENTS[0m (code: 4013, 18 bytes): 'Invalid intent(s).'
+22:06:13 WARN  discord-gateway.c:395: [DISCORD_GATEWAY] Gateway will not attempt to reconnect
+22:06:13 INFO  discord-loop.c:127: [DISCORD] Exits main gateway loop (code: 103, reason: Discord Connection: Couldn't establish a connection to discord)
+22:06:13 INFO  websockets.c:773: [WEBSOCKETS] Disconnected gracefully
+22:06:13 INFO  websockets.c:177: [WEBSOCKETS] Change status to WS_DISCONNECTED
+22:06:13 WARN  discord-gateway.c:796: [DISCORD_GATEWAY] Discord Gateway Shutdown
+22:07:11 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:07:11 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:07:11 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:07:11 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:07:11 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:07:11 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:07:11 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:07:11 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:07:12 INFO  websockets.c:195: [WEBSOCKETS] Change status to WS_DISCONNECTING
+22:07:12 WARN  discord-gateway.c:355: [DISCORD_GATEWAY] [31mCLOSE DISCORD_GATEWAY_CLOSE_REASON_DISALLOWED_INTENTS[0m (code: 4014, 21 bytes): 'Disallowed intent(s).'
+22:07:12 WARN  discord-gateway.c:395: [DISCORD_GATEWAY] Gateway will not attempt to reconnect
+22:07:12 INFO  discord-loop.c:127: [DISCORD] Exits main gateway loop (code: 103, reason: Discord Connection: Couldn't establish a connection to discord)
+22:07:12 INFO  websockets.c:773: [WEBSOCKETS] Disconnected gracefully
+22:07:12 INFO  websockets.c:177: [WEBSOCKETS] Change status to WS_DISCONNECTED
+22:07:12 WARN  discord-gateway.c:796: [DISCORD_GATEWAY] Discord Gateway Shutdown
+22:08:43 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:08:43 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:08:43 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:08:43 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:08:43 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:08:43 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:08:43 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:08:43 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:08:44 INFO  websockets.c:195: [WEBSOCKETS] Change status to WS_DISCONNECTING
+22:08:44 WARN  discord-gateway.c:355: [DISCORD_GATEWAY] [31mCLOSE DISCORD_GATEWAY_CLOSE_REASON_DISALLOWED_INTENTS[0m (code: 4014, 21 bytes): 'Disallowed intent(s).'
+22:08:44 WARN  discord-gateway.c:395: [DISCORD_GATEWAY] Gateway will not attempt to reconnect
+22:08:44 INFO  discord-loop.c:127: [DISCORD] Exits main gateway loop (code: 103, reason: Discord Connection: Couldn't establish a connection to discord)
+22:08:44 INFO  websockets.c:773: [WEBSOCKETS] Disconnected gracefully
+22:08:44 INFO  websockets.c:177: [WEBSOCKETS] Change status to WS_DISCONNECTED
+22:08:44 WARN  discord-gateway.c:796: [DISCORD_GATEWAY] Discord Gateway Shutdown
+22:09:02 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:09:03 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:09:03 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:09:03 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:09:03 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:09:03 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:09:03 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:09:03 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:09:03 INFO  websockets.c:195: [WEBSOCKETS] Change status to WS_DISCONNECTING
+22:09:03 WARN  discord-gateway.c:355: [DISCORD_GATEWAY] [31mCLOSE DISCORD_GATEWAY_CLOSE_REASON_DISALLOWED_INTENTS[0m (code: 4014, 21 bytes): 'Disallowed intent(s).'
+22:09:03 WARN  discord-gateway.c:395: [DISCORD_GATEWAY] Gateway will not attempt to reconnect
+22:09:03 INFO  discord-loop.c:127: [DISCORD] Exits main gateway loop (code: 103, reason: Discord Connection: Couldn't establish a connection to discord)
+22:09:03 INFO  websockets.c:773: [WEBSOCKETS] Disconnected gracefully
+22:09:03 INFO  websockets.c:177: [WEBSOCKETS] Change status to WS_DISCONNECTED
+22:09:03 WARN  discord-gateway.c:796: [DISCORD_GATEWAY] Discord Gateway Shutdown
+22:09:27 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:09:27 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:09:27 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:09:27 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:09:27 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:09:27 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:09:27 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:09:27 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:09:30 INFO  websockets.c:195: [WEBSOCKETS] Change status to WS_DISCONNECTING
+22:09:30 WARN  discord-gateway.c:355: [DISCORD_GATEWAY] [31mCLOSE DISCORD_GATEWAY_CLOSE_REASON_DISALLOWED_INTENTS[0m (code: 4014, 21 bytes): 'Disallowed intent(s).'
+22:09:30 WARN  discord-gateway.c:395: [DISCORD_GATEWAY] Gateway will not attempt to reconnect
+22:09:30 INFO  discord-loop.c:127: [DISCORD] Exits main gateway loop (code: 103, reason: Discord Connection: Couldn't establish a connection to discord)
+22:09:30 INFO  websockets.c:773: [WEBSOCKETS] Disconnected gracefully
+22:09:30 INFO  websockets.c:177: [WEBSOCKETS] Change status to WS_DISCONNECTED
+22:09:30 WARN  discord-gateway.c:796: [DISCORD_GATEWAY] Discord Gateway Shutdown
+22:09:44 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:09:45 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:09:45 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:09:45 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:09:45 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:09:45 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:09:45 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:09:45 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:09:48 INFO  websockets.c:195: [WEBSOCKETS] Change status to WS_DISCONNECTING
+22:09:48 WARN  discord-gateway.c:355: [DISCORD_GATEWAY] [31mCLOSE DISCORD_GATEWAY_CLOSE_REASON_DISALLOWED_INTENTS[0m (code: 4014, 21 bytes): 'Disallowed intent(s).'
+22:09:48 WARN  discord-gateway.c:395: [DISCORD_GATEWAY] Gateway will not attempt to reconnect
+22:09:48 INFO  discord-loop.c:127: [DISCORD] Exits main gateway loop (code: 103, reason: Discord Connection: Couldn't establish a connection to discord)
+22:09:48 INFO  websockets.c:773: [WEBSOCKETS] Disconnected gracefully
+22:09:48 INFO  websockets.c:177: [WEBSOCKETS] Change status to WS_DISCONNECTED
+22:09:48 WARN  discord-gateway.c:796: [DISCORD_GATEWAY] Discord Gateway Shutdown
+22:09:53 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:09:53 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:09:53 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:09:53 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:09:53 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:09:53 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:09:53 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:09:53 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:09:54 INFO  websockets.c:195: [WEBSOCKETS] Change status to WS_DISCONNECTING
+22:09:54 WARN  discord-gateway.c:355: [DISCORD_GATEWAY] [31mCLOSE DISCORD_GATEWAY_CLOSE_REASON_DISALLOWED_INTENTS[0m (code: 4014, 21 bytes): 'Disallowed intent(s).'
+22:09:54 WARN  discord-gateway.c:395: [DISCORD_GATEWAY] Gateway will not attempt to reconnect
+22:09:54 INFO  discord-loop.c:127: [DISCORD] Exits main gateway loop (code: 103, reason: Discord Connection: Couldn't establish a connection to discord)
+22:09:54 INFO  websockets.c:773: [WEBSOCKETS] Disconnected gracefully
+22:09:54 INFO  websockets.c:177: [WEBSOCKETS] Change status to WS_DISCONNECTED
+22:09:54 WARN  discord-gateway.c:796: [DISCORD_GATEWAY] Discord Gateway Shutdown
+22:12:51 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:12:51 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:12:51 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:12:51 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:12:51 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:12:51 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:12:51 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:12:51 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:12:54 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:12:54 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:12:59 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55e24763b620
+22:12:59 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55e24763b620
+22:13:06 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55e24763b620
+22:13:06 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55e24763b620
+22:14:31 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:14:31 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:14:31 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:14:31 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:14:31 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:14:31 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:14:31 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:14:31 WARN  websockets.c:881: [WEBSOCKETS] Attempting to close WebSockets connection with WS_CLOSE_REASON_PRIVATE : Discord expects client to reconnect
+22:14:31 WARN  websockets.c:377: [WEBSOCKETS] Received pending WS_CLOSE_REASON_PRIVATE, closing the connection ...
+22:14:31 INFO  websockets.c:195: [WEBSOCKETS] Change status to WS_DISCONNECTING
+22:14:31 INFO  discord-loop.c:127: [DISCORD] Exits main gateway loop (code: 0, reason: Success: The request was a success)
+22:14:31 INFO  websockets.c:177: [WEBSOCKETS] Change status to WS_DISCONNECTED
+22:14:31 INFO  discord-gateway.c:809: [DISCORD_GATEWAY] Reconnect attempt #1
+22:14:32 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_8_@@@]
+22:14:32 INFO  websockets.c:546: [WEBSOCKETS] WebSockets redirecting:
+	from: wss://gateway.discord.gg/?v=10&encoding=json
+	to: wss://gateway.discord.gg/?v=10&encoding=json
+22:14:32 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:14:32 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:14:32 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:14:32 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:14:32 INFO  discord-gateway_dispatch.c:213: [DISCORD_GATEWAY] [92mSEND[0m RESUME (121 bytes) [@@@_12_@@@]
+22:14:32 WARN  websockets.c:881: [WEBSOCKETS] Attempting to close WebSockets connection with WS_CLOSE_REASON_NORMAL : Invalid session, can't resume
+22:14:32 WARN  websockets.c:377: [WEBSOCKETS] Received pending WS_CLOSE_REASON_NORMAL, closing the connection ...
+22:14:32 INFO  websockets.c:195: [WEBSOCKETS] Change status to WS_DISCONNECTING
+22:14:32 INFO  discord-loop.c:127: [DISCORD] Exits main gateway loop (code: 0, reason: Success: The request was a success)
+22:14:32 INFO  websockets.c:177: [WEBSOCKETS] Change status to WS_DISCONNECTED
+22:14:32 INFO  discord-gateway.c:809: [DISCORD_GATEWAY] Reconnect attempt #2
+22:14:32 INFO  discord-rest_ratelimit.c:236: [DISCORD_RATELIMIT] [41f9] RATELIMITING (wait 4208 ms)
+22:14:36 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_15_@@@]
+22:14:36 INFO  websockets.c:546: [WEBSOCKETS] WebSockets redirecting:
+	from: wss://gateway.discord.gg/?v=10&encoding=json
+	to: wss://gateway.discord.gg/?v=10&encoding=json
+22:14:36 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:14:36 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:14:37 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:14:37 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:14:37 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_19_@@@]
+22:14:37 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:14:37 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_21_@@@]
+22:14:37 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x556334226180
+22:14:37 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x556334226180
+22:15:34 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:15:34 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:15:34 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:15:34 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:15:34 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:15:34 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:15:34 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:15:34 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:15:37 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:15:37 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:15:42 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x56445104c620
+22:15:42 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x56445104c620
+22:16:53 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:16:53 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:16:53 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:16:53 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:16:53 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:16:53 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:16:53 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:16:53 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:16:54 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:16:54 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:16:57 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x55f6a8934620
+22:16:57 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x55f6a8934620
+22:20:50 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:20:50 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:20:50 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:20:50 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:20:50 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:20:51 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:20:51 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:20:51 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:20:52 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:20:52 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:23:24 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:23:25 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:23:25 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:23:25 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:23:25 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:23:25 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:23:25 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:23:25 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:23:26 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:23:26 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:23:29 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x5568e3dfe620
+22:23:29 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x5568e3dfe620
+22:27:19 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:27:20 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:27:20 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:27:20 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:27:20 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:27:20 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:27:20 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:27:20 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:27:20 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:27:20 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:27:23 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x56187f829620
+22:27:23 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x56187f829620
+22:29:49 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:29:50 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:29:50 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:29:50 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:29:50 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:29:50 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:29:50 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:29:50 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:29:51 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:29:51 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:29:57 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x560f013c0620
+22:29:57 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x560f013c0620
+22:35:45 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:35:46 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:35:46 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:35:46 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:35:46 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:35:46 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:35:46 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:35:46 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:35:46 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:35:46 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:38:36 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:38:36 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:38:36 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:38:36 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:38:36 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:38:36 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:38:36 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:38:36 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:38:37 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:38:37 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:40:17 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:40:17 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:40:17 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:40:17 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:40:17 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:40:17 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:40:17 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:40:17 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:40:18 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:40:18 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:40:43 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:40:43 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:40:43 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:40:43 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:40:43 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:40:44 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:40:44 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:40:44 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:40:44 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:40:44 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:40:58 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:40:59 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:40:59 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:40:59 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:40:59 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:40:59 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:40:59 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:40:59 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:41:00 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:41:00 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:41:24 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:41:24 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:41:24 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:41:24 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:41:24 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:41:24 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:41:24 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:41:24 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:41:25 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:41:25 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:43:54 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:43:55 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:43:55 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:43:55 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:43:55 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:43:55 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:43:55 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:43:55 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:43:56 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:43:56 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:47:01 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:47:01 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:47:01 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:47:01 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:47:01 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:47:01 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:47:01 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:47:01 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:47:02 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:47:02 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:47:38 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_1_@@@]
+22:47:38 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_3_@@@]
+22:47:38 INFO  websockets.c:543: [WEBSOCKETS] Websockets new URL: wss://gateway.discord.gg/?v=10&encoding=json
+22:47:38 INFO  websockets.c:426: [WEBSOCKETS] Initialized WebSockets handler
+22:47:38 INFO  websockets.c:198: [WEBSOCKETS] Change status to WS_CONNECTING
+22:47:39 INFO  websockets.c:185: [WEBSOCKETS] Change status to WS_CONNECTED
+22:47:39 INFO  discord-gateway.c:338: [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+22:47:39 INFO  discord-gateway_dispatch.c:171: [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (301 bytes) [@@@_7_@@@]
+22:47:42 INFO  discord-gateway.c:210: [DISCORD_GATEWAY] Successfully started a Discord session!
+22:47:42 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+22:47:59 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:47:59 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680
+22:47:59 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:47:59 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680
+22:47:59 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_12_@@@]
+22:48:05 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:48:05 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680
+22:48:10 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:48:10 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680
+22:48:11 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:48:11 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680
+22:48:11 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_17_@@@]
+22:48:15 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:48:15 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680
+22:48:18 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:48:18 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680
+22:48:24 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_22_@@@]
+22:48:54 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:48:54 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680
+22:48:54 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:48:54 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680
+22:48:55 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:48:55 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680
+22:48:55 INFO  user-agent.c:776: [USER_AGENT] [32mSUCCESS[0m (200)OK - The request was completed succesfully. [@@@_26_@@@]
+22:49:05 INFO  discord-gateway_dispatch.c:279: [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (15 bytes) [@@@_28_@@@]
+22:49:13 INFO  discord-refcount.c:234: [DISCORD_REFCOUNT] Adding concord's internal resource 0x557214c38680
+22:49:13 INFO  discord-refcount.c:169: [DISCORD_REFCOUNT] Fully decremented and free'd 0x557214c38680

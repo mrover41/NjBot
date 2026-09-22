@@ -5,6 +5,8 @@
 #include <stddef.h>
 #include <concord/discord.h>
 
+#define ARG_BUFFER 32
+
 typedef struct icommand icommand;
 
 typedef struct {
@@ -44,5 +46,8 @@ struct icommand {
 
 int rgcommand(const char *, uint32_t, uint64_t *, size_t, const command_ops *);
 //void urgcommand(uint32_t);
+
+
+void on_msg_create(struct discord *client, const struct discord_message *msg);
 
 #endif
