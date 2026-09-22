@@ -7,10 +7,13 @@
 #include <stdint.h>
 
 #include "module.h"
+#include "discord.h"
 
 static const char *path = "./modules/";
 
 int main() {
+	disinit();
+
 	DIR *dir = opendir(path);
     if (!dir) {
         perror("opendir");
@@ -112,6 +115,8 @@ int main() {
 		dlclose(current->handle);
 		current++;
 	}
+
+	disexit();
 
 	free(arr);
     closedir(dir);

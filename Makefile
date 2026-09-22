@@ -1,13 +1,15 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -O2
+CFLAGS += -Wall -Wextra -O2 -I/usr/local/include
+LDFLAGS += -L/usr/local/lib -ldiscord -ldl -lpthread -lcurl -lssl -lcrypto
 
 BIN_NAME ?= main.bin
-APP_SRCS = main.c
+APP_SRCS = $(wildcard *.c)
 
 MOD_DIR = modules
 
 MODULE_DIRS ?= \
-	./mod_dev/tst_mod/
+	./mod_dev/tst_mod/ \
+	./mod_dev/commands/
 
 CLEAN_MOD_DIRS = $(patsubst %/,%,$(MODULE_DIRS))
 DEFAULT_MOD_TARGETS = $(patsubst %, $(MOD_DIR)/%.so, $(notdir $(CLEAN_MOD_DIRS)))
@@ -21,7 +23,7 @@ modules: $(DEFAULT_MOD_TARGETS)
 %: $(MOD_DIR)/%.so ;
 
 $(BIN_NAME): $(APP_SRCS)
-	$(CC) $(CFLAGS) $(APP_SRCS) -o $@ -ldl
+	$(CC) $(CFLAGS) $(APP_SRCS) -o $@ $(LDFLAGS)
 
 $(MOD_DIR)/%.so: ./mod_dev/%
 	@mkdir -p $(MOD_DIR)
